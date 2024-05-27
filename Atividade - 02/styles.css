@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2C3E50;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: #F39C12;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-card {
+    font-size: 24px;
+    color: #FFF;
+    margin-bottom: 10px;
+}
+
+.descricao-card {
+    font-size: 16px;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.botao-editar,
+.botao-apagar {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao-editar {
+    background-color: #27AE60;
+}
+
+.botao-editar:hover {
+    background-color: #1E8449;
+}
+
+.botao-apagar {
+    background-color: #E74C3C;
+}
+
+.botao-apagar:hover {
+    background-color: #C0392B;
+}
